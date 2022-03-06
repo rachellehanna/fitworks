@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag#enter_viewport_meta_tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>FITWORKS</title>
+
+    <link rel="stylesheet" href="setup.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="top-header">
+          <a id="logo">Fitworks</a>
+
+          <div class="mobile-menu-container">
+            <p>Menu</p>
+            <nav class="mobile-menu">
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Philosophy</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Join Us</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <nav class="desktop-menu">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Philosophy</a></li>
+              <li><a href="#">Classes</a></li>
+              <li><a href="#">Join Us</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <h1>Everything Fitness Space</h1>
+        <img class="badge" src="assets/badge.png" alt="badge" />
+        <img
+          src="assets/header.jpg"
+          class="header-image"
+          alt="A strong man lifting an exercise ball."
+        />
+      </div>
+    </header>
+
+    <main>
+      <section class="about-section">
+        <div class="wrapper">
+          <div class="our-space">
+            <div class="title">
+              <img src="assets/slashes.svg" class="slashes" />
+              <h2>Our Space</h2>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ut
+              velit aliquid, qui laudantium quas et? Eaque dolor ratione eum
+              neque, esse quisquam ex facilis, non cumque dolore recusandae
+              harum!
+            </p>
+
+            <button>Let's Chat</button>
+          </div>
+          <div class="about-section-image-container">
+            <img
+              class="about-section-image"
+              src="assets/image1.jpg"
+              alt="A person doing squats while lifting weights."
+              title="A person lifting weights"
+            />
+            <div class="user-count">
+              <p>15,000+ Happy Users</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="exercises-section">
+        <div class="wrapper">
+          <div class="title">
+            <img src="assets/slashes.svg" class="slashes" />
+            <h2>Exercises</h2>
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
+            doloribus, fugit est commodi esse culpa. Eaque facere labore
+            repellendus quas? Vel quia ducimus ea accusantium numquam tempora
+            quaerat provident fuga.
+          </p>
+
+          <ul>
+            <li>
+              <a href="#">
+                <div class="exercises-container">
+                  <img
+                    src="assets/image2.jpg"
+                    alt="A man running."
+                    title="Man Running"
+                  />
+                  <h3>Running</h3>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="exercises-container">
+                  <img
+                    src="assets/image3.jpg"
+                    alt="A woman doing yoga."
+                    title="Yoga Pose"
+                  />
+                  <h3>Yoga</h3>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="exercises-container">
+                  <img
+                    src="assets/image4.jpg"
+                    alt="A woman boxing."
+                    title="Throwing a Punch"
+                  />
+                  <h3>Boxing</h3>
+                </div>
+              </a>
+            </li>
+            <li>
+              <div class="exercises-container">
+                <img
+                  src="assets/image5.jpg"
+                  alt="A woman doing body and weight exercises."
+                  title="CrossFit Exercises"
+                />
+                <h3>CrossFit</h3>
+              </div>
+            </li>
+            <li>
+              <a href="#">
+                <div class="exercises-container">
+                  <h3>Strengh</h3>
+                  <img
+                    src="assets/image6.jpg"
+                    alt="A person doing strengh training using weights."
+                    title="Strengthening your back"
+                  />
+                  <h3>Strengh</h3>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <div class="wrapper">
+          <div class="title">
+            <img src="assets/slashes.svg" class="slashes" />
+            <h2>Join Us Today</h2>
+          </div>
+          <div class="form-section-inner">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+              voluptatum, quam eius iusto consequatur laudantium. Nulla magni
+              eum, modi deserunt commodi, debitis voluptate neque ex fugit,
+              repellendus blanditiis quo libero!
+            </p>
+
+            <form action="#" method="POST" class="join-form" name="join-form">
+              <label for="user-name">Name</label>
+              <input type="text" id="user-name" name="user-name" />
+
+              <label for="user-email">Email</label>
+              <input type="email" id="user-email" name="user-email" />
+
+              <label for="user-message">Message</label>
+              <textarea
+                name="user-message"
+                id="user-message"
+                cols="30"
+                rows="10"
+                minlength="5"
+                maxlength="200"
+              >
+              </textarea>
+
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial-section">
+        <div class="wrapper">
+          <div class="title">
+            <img src="assets/slashes.svg" class="slashes" />
+            <h2>Happy Members</h2>
+          </div>
+
+          <div class="testimonial-content">
+            <p>
+              FITWORKS studio transformed my philosophy on health and fitness,
+              they truly changed my life for the best!
+            </p>
+            <div class="founder-content">
+              <img src="assets/image10.jpg" alt="Jaime Jorge" />
+              <p>
+                <strong>Jaime Jorge</strong><br />
+                Founder, RENTEA
+              </p>
+            </div>
+
+            <img src="assets/arrow.svg" / class="arrow">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrapper">
+        <img
+          src="assets/image8.jpg"
+          alt="A man doing rope exercises."
+          title="Rope Exercises"
+        />
+
+        <div class="footer-inner">
+          <div class="location">
+            <img class="badge-bottom" src="assets/badge.png" alt="badge" />
+
+            <p>
+              129 Jordan Ave,<br />
+              Toronto, CA M22 324
+            </p>
+
+            <p>info@spaces-studio.com</p>
+          </div>
+
+          <nav>
+            <div class="footer-nav-container">
+              <h4>Menu</h4>
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Philosophy</a></li>
+                <li><a href="#">Join Us</a></li>
+              </ul>
+            </div>
+            <div class="footer-nav-container">
+              <h4>Classes</h4>
+              <ul>
+                <li><a href="#">Yoga</a></li>
+                <li><a href="#">Running</a></li>
+                <li><a href="#">CrossFit</a></li>
+              </ul>
+            </div>
+            <div class="footer-nav-container">
+              <h4>Follow</h4>
+              <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Twitter</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <p class="copyright">
+          Created at
+          <a href="https://junocollege.com/">Juno College of Technology</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
